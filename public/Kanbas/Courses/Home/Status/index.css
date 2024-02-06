@@ -1,0 +1,63 @@
+.course-status-button {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #495057;
+  }
+  .published-button {
+    background-color: #28a745;
+    color: white;
+  }
+  .published-buttons {
+    display: flex;
+  }
+
+.to-do-list-header,
+.coming-up-list-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+.to-do-list-item,
+.coming-up-list-item {
+    background-color: white; 
+    padding: 10px;
+    color:red
+}
+
+.view-calendar-link {
+    color: red; 
+    text-decoration: none;
+    display: block;
+}
+
+.coming-up-headers {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    color: #6c757d;
+}
+
+.calendar-header {
+    display: flex;
+    gap:10px;
+}
+
+.coming-up-list-item i {
+    color: #6c757d; 
+}
+
+.to-do-list-header i,
+.to-do-list-item i {
+    color: #6c757d; 
+}
+
+.coming-up-list-item span,
+.to-do-list-item span {
+    display: block; 
+    color: #6c757d; 
+}

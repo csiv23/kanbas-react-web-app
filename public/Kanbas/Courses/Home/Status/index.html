@@ -1,22 +1,103 @@
 <html>
-    <head></head>
-    <body>
-        <h4>Course Status</h4>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <button>Published</button>
-                    </td>
-                </tr>
-                <tr
-                    ><td>
-                        <button>Unpublished</button>
-                    </td>
-            </tbody>
-        </table>
-        <button>Import Existing Content</button>
-        <br>
-        <button>Import From Commons</button>
-    </body>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/Kanbas/Courses/Home/Status/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h4>Course Status</h4>
+      <div class="published-buttons">
+        <button
+          class="list-group-item list-group-item-action course-status-button"
+        >
+          <i class="fas fa-times-circle"></i> Unpublished
+        </button>
+        <button
+          class="list-group-item list-group-item-action course-status-button published-button"
+        >
+          <i class="fas fa-check-circle"></i> Published
+        </button>
+      </div>
+
+      <div class="list-group">
+        <button
+          class="list-group-item list-group-item-action course-status-button"
+        >
+          <i class="fas fa-file-import"></i> Import Existing Content
+        </button>
+        <button
+          class="list-group-item list-group-item-action course-status-button"
+        >
+          <i class="fas fa-cloud-download-alt"></i> Import from Commons
+        </button>
+        <button
+          class="list-group-item list-group-item-action course-status-button"
+        >
+          <i class="fas fa-home"></i> Choose Home Page
+        </button>
+        <button
+          class="list-group-item list-group-item-action course-status-button"
+        >
+          <i class="fas fa-stream"></i> View Course Stream
+        </button>
+        <button
+          class="list-group-item list-group-item-action course-status-button"
+        >
+          <i class="fas fa-bullhorn"></i> New Announcement
+        </button>
+        <button
+          class="list-group-item list-group-item-action course-status-button"
+        >
+          <i class="fas fa-chart-bar"></i> View Analytics
+        </button>
+        <button
+          class="list-group-item list-group-item-action course-status-button"
+        >
+          <i class="fas fa-bell"></i> View Course Notifications
+        </button>
+      </div>
+      <div class="to-do-list">
+        <div class="to-do-list-header">To Do</div>
+        <div class="to-do-list-item">
+          <i class="fas fa-calendar"></i> Grade A1 - ENV + HTML
+          <span>200 points • Sep 18 at 11:59pm</span>
+        </div>
+      </div>
+      <div class="coming-up-list">
+        <div class="coming-up-headers">
+          <div class="coming-up-list-header">Coming Up</div>
+          <div class="calendar-header">
+            <i class="fas fa-calendar"></i> <a href="#" class="view-calendar-link">View Calendar</a>
+          </div>
+        </div>
+
+        <div class="coming-up-list-item">
+          <i class="fas fa-calendar"></i> CS50 18.01x 2023 Lecture
+          <span>Sep 11 at 11:45am</span>
+        </div>
+        <div class="coming-up-list-item">
+          <i class="fas fa-calendar"></i> CS50 18.02x 2023 Lecture
+          <span>Sep 11 at 1pm</span>
+        </div>
+        <div class="coming-up-list-item">
+          <i class="fas fa-calendar"></i> CS50 Web - Lecture
+          <span>Summer 2 2023 - LECTURE</span>
+        </div>
+        <div class="coming-up-list-item">
+          <i class="fas fa-calendar"></i> CS50 18.01x 2023 Lecture
+          <span>Sep 11 at 7pm</span>
+        </div>
+        <div class="coming-up-list-item">
+          <span>12 more in the next week...</span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
