@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "AG101",
+    "name": "Angular Development",
+    "number": "RS4550",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "angular.jpg"
+  },
+  {
+    "_id": "DNT102",
+    "name": "Doughnut Racing",
+    "number": "RS4560",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "doughnut.jpg"
+  },
+  {
+    "_id": "JAZZ321",
+    "name": "Jazz Band",
+    "number": "RS4570",
+    "startDate": "2023-01-10",
+    "endDate": "2023-05-15",
+    "image": "jazz.png"
+  }
+]
