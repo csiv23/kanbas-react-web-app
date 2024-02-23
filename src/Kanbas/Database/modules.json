@@ -1,0 +1,210 @@
+[
+  {
+    "_id": "M401",
+    "name": "Angular Basics",
+    "description": "Introduction to Angular framework and its core concepts.",
+    "course": "AG101",
+    "lessons": [
+      {
+        "_id": "L401",
+        "name": "Getting Started with Angular",
+        "description": "Setting up the environment and your first Angular app.",
+        "module": "M401"
+      },
+      {
+        "_id": "L402",
+        "name": "Angular Components",
+        "description": "Understanding components and building a user interface.",
+        "module": "M401"
+      },
+      {
+        "_id": "L403",
+        "name": "Data Binding and Directives",
+        "description": "Data manipulation and directives usage in Angular.",
+        "module": "M401"
+      }
+    ]
+  },
+  {
+    "_id": "M402",
+    "name": "Angular Advanced Topics",
+    "description": "Dive into advanced Angular features and performance optimization.",
+    "course": "AG101",
+    "lessons": [
+      {
+        "_id": "L404",
+        "name": "State Management with NgRx",
+        "description": "Managing application state with the NgRx library.",
+        "module": "M402"
+      },
+      {
+        "_id": "L405",
+        "name": "Angular Animations",
+        "description": "Enhancing user experience with Angular animations.",
+        "module": "M402"
+      },
+      {
+        "_id": "L406",
+        "name": "Angular Universal for SSR",
+        "description": "Implementing server-side rendering with Angular Universal.",
+        "module": "M402"
+      }
+    ]
+  },
+  {
+    "_id": "M501",
+    "name": "Introduction to Doughnut Racing",
+    "description": "Fundamentals of doughnut racing, including history and basic techniques.",
+    "course": "DNT102",
+    "lessons": [
+      {
+        "_id": "L501",
+        "name": "History of Doughnut Racing",
+        "description": "Exploring the origins and evolution of doughnut racing.",
+        "module": "M501"
+      },
+      {
+        "_id": "L502",
+        "name": "Doughnut Racing Techniques",
+        "description": "Basic techniques and strategies used in competitive doughnut racing.",
+        "module": "M501"
+      },
+      {
+        "_id": "L503",
+        "name": "Doughnut Racing Safety",
+        "description": "Safety measures and best practices in doughnut racing.",
+        "module": "M501"
+      }
+    ]
+  },
+  {
+    "_id": "M502",
+    "name": "Doughnut Racing Tactics",
+    "description": "Advanced strategies and competitive tactics in doughnut racing.",
+    "course": "DNT102",
+    "lessons": [
+      {
+        "_id": "L504",
+        "name": "Aerodynamic Doughnut Design",
+        "description": "Designing doughnuts for optimal racing performance.",
+        "module": "M502"
+      },
+      {
+        "_id": "L505",
+        "name": "Racing Doughnut Nutrition",
+        "description": "Nutritional strategies for peak doughnut racing.",
+        "module": "M502"
+      },
+      {
+        "_id": "L506",
+        "name": "Doughnut Racing Psychology",
+        "description": "Psychological techniques to enhance racing performance.",
+        "module": "M502"
+      }
+    ]
+  },
+  {
+    "_id": "M505",
+    "name": "Doughnut Drift Racing in Zero Gravity",
+    "description": "Master the art of zero-gravity doughnut racing with advanced drift techniques.",
+    "course": "DNT102",
+    "lessons": [
+      {
+        "_id": "L510",
+        "name": "Zero-G Doughnut Dynamics",
+        "description": "Understanding the physics of doughnut motion in a weightless environment.",
+        "module": "M505"
+      },
+      {
+        "_id": "L511",
+        "name": "Astronautical Doughnut Customization",
+        "description": "Designing your racing doughnut with rocket boosters and space-worthy sprinkles.",
+        "module": "M505"
+      },
+      {
+        "_id": "L512",
+        "name": "Orbiting Obstacle Courses",
+        "description": "Navigating through asteroid fields and black holes without spilling your frosting.",
+        "module": "M505"
+      }
+    ]
+  },
+  {
+    "_id": "M506",
+    "name": "Time-Traveling Doughnut Rally",
+    "description": "Race your doughnut through the fabric of time, from the age of dinosaurs to futuristic cities.",
+    "course": "DNT102",
+    "lessons": [
+      {
+        "_id": "L513",
+        "name": "Prehistoric Doughnut Safari",
+        "description": "Evade the T-rex and race past volcanoes with your stone-aged doughnut.",
+        "module": "M506"
+      },
+      {
+        "_id": "L514",
+        "name": "Medieval Doughnut Jousting",
+        "description": "Equip your doughnut with a lance and shield for medieval tournaments.",
+        "module": "M506"
+      },
+      {
+        "_id": "L515",
+        "name": "Futuristic Doughnut Hyperloops",
+        "description": "Compete in high-speed races through neon-lit hyperloop tracks.",
+        "module": "M506"
+      }
+    ]
+  },
+  {
+    "_id": "M601",
+    "name": "Jazz Music Fundamentals",
+    "description": "Core principles of jazz music theory and performance.",
+    "course": "JAZZ321",
+    "lessons": [
+      {
+        "_id": "L601",
+        "name": "Introduction to Jazz",
+        "description": "Overview of jazz history and its impact on music.",
+        "module": "M601"
+      },
+      {
+        "_id": "L602",
+        "name": "Jazz Improvisation",
+        "description": "Techniques and theory behind jazz improvisation.",
+        "module": "M601"
+      },
+      {
+        "_id": "L603",
+        "name": "Jazz Band Ensemble Play",
+        "description": "Working as a team in a jazz ensemble setting.",
+        "module": "M601"
+      }
+    ]
+  },
+  {
+    "_id": "M602",
+    "name": "Advanced Jazz Techniques",
+    "description": "Exploring complex jazz techniques and modern jazz trends.",
+    "course": "JAZZ321",
+    "lessons": [
+      {
+        "_id": "L604",
+        "name": "Modal Jazz Explorations",
+        "description": "Understanding and applying modal jazz techniques.",
+        "module": "M602"
+      },
+      {
+        "_id": "L605",
+        "name": "Jazz Fusion and Genre Blending",
+        "description": "Mixing jazz with other musical genres for a unique sound.",
+        "module": "M602"
+      },
+      {
+        "_id": "L606",
+        "name": "Jazz Performance and Stage Presence",
+        "description": "Techniques for live performance and engaging audiences.",
+        "module": "M602"
+      }
+    ]
+  }
+]
