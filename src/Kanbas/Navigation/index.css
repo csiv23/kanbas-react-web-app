@@ -50,3 +50,7 @@
   align-items: center;
   text-align: center; 
 }
+
+.wd-kanbas-navigation a:hover {
+  color: white;
+}
