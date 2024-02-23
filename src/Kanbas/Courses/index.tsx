@@ -15,7 +15,10 @@ function Courses() {
       <h1 className="course-header-wrapper">
         <HiMiniBars3 className="hamburger-icon" />
         <span className="course-label">
-          {course?.number} / {section}
+          {course?.number}{" "}
+          <span className="section-label">
+            {">"} {section}
+          </span>
         </span>
       </h1>
       <CourseNavigation />
