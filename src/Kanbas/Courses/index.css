@@ -20,3 +20,8 @@
     padding-bottom: 10px;
     border-bottom: 1px solid #c7cdd1;
 }
+
+.section-label {
+    color: grey;
+    font-weight: 200;;
+}
