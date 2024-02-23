@@ -18,7 +18,11 @@
   margin-bottom: 10px;
   font-size: 0.8em;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
+
+
 .wd-kanbas-navigation li.wd-active {
   background-color: white;
 }
@@ -38,4 +42,11 @@
 .fa-n {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; 
 }
