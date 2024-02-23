@@ -1,0 +1,12 @@
+[
+    { "_id": "A401", "title": "Angular Directives Deep Dive", "course": "AG101" },
+    { "_id": "A402", "title": "Single Page Application Routing", "course": "AG101" },
+    { "_id": "A403", "title": "State Management with NgRx", "course": "AG101" },
+    { "_id": "A501", "title": "Doughnut Aerodynamics", "course": "DNT102" },
+    { "_id": "A502", "title": "Racing Strategy Analysis", "course": "DNT102" },
+    { "_id": "A503", "title": "Doughnut Design and Customization", "course": "DNT102" },
+    { "_id": "A601", "title": "Jazz Improvisation Techniques", "course": "JAZZ321" },
+    { "_id": "A602", "title": "History of Jazz Music", "course": "JAZZ321" },
+    { "_id": "A603", "title": "Band Collaboration and Composition", "course": "JAZZ321" }
+  ]
+  
