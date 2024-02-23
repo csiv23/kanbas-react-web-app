@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+}
+
+.container {
+    width:20vw;
+    margin-top: 20px;
+}
+
+.modules {
+    width: 80vw;
+}
