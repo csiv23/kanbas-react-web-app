@@ -1,0 +1,21 @@
+
+
+.hamburger-icon {
+    color: red;
+    margin-right: 20px;
+    margin-left: 30px;
+    height: 24px;
+    width: 24px;
+    
+}
+
+.course-label {
+    color: red;
+    font-size: 24px;
+}
+
+.course-header-wrapper {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c7cdd1;
+}
