@@ -10,3 +10,7 @@
 .modules {
     width: 80vw;
 }
+
+.list-group-item {
+    margin-bottom: 2px;
+}
