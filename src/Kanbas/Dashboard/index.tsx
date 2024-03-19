@@ -86,7 +86,11 @@ function Dashboard({
                     {course.name}
                   </Link>
 
-                  <p className="card-text">{course.name}</p>
+                  <div className="card-text">
+                    {course.subtitle}
+                    <br />
+                    <small>{course.number}</small> <small>{course.term}</small>
+                  </div>
                   <Link
                     to={`/Kanbas/Courses/${course._id}/Home`}
                     className="btn btn-primary"
