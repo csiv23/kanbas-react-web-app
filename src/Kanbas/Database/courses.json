@@ -5,7 +5,9 @@
     "number": "RS4550",
     "startDate": "2023-01-10",
     "endDate": "2023-05-15",
-    "image": "angular.jpg"
+    "image": "angular.jpg",
+    "subtitle": "Introduction to Angular",
+    "term": "2023 Spring Term"
   },
   {
     "_id": "DNT102",
@@ -13,7 +15,9 @@
     "number": "RS4560",
     "startDate": "2023-01-10",
     "endDate": "2023-05-15",
-    "image": "doughnut.jpg"
+    "image": "doughnut.jpg",
+    "subtitle": "Competitive Doughnut Dynamics",
+    "term": "2023 Spring Term"
   },
   {
     "_id": "JAZZ321",
@@ -21,6 +25,8 @@
     "number": "RS4570",
     "startDate": "2023-01-10",
     "endDate": "2023-05-15",
-    "image": "jazz.png"
+    "image": "jazz.png",
+    "subtitle": "Exploring Jazz Music",
+    "term": "2023 Spring Term"
   }
 ]
