@@ -1,40 +1,21 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import db from "../Database";
-function Dashboard() {
-  const [courses, setCourses] = useState(db.courses);
-  const [course, setCourse] = useState({
-    _id: "0",
-    name: "New Course",
-    number: "New Number",
-    image: "/images/reactjs.jpg",
-    subtitle: "New Course Subtitle",
-    term: "2023 Fall Term",
-  });
-  const addNewCourse = () => {
-    const newCourse = {
-      ...course,
-      _id: new Date().getTime().toString(),
-      image: course.image || "reactjs.jpg",
-    };
-    setCourses([...courses, { ...course, ...newCourse }]);
-  };
-  const deleteCourse = (courseId: string) => {
-    setCourses(courses.filter((course) => course._id !== courseId));
-  };
-
-  const updateCourse = () => {
-    setCourses(
-      courses.map((c) => {
-        if (c._id === course._id) {
-          return course;
-        } else {
-          return c;
-        }
-      })
-    );
-  };
-
+function Dashboard({
+  courses,
+  course,
+  setCourse,
+  addNewCourse,
+  deleteCourse,
+  updateCourse,
+}: {
+  courses: any[];
+  course: any;
+  setCourse: (course: any) => void;
+  addNewCourse: () => void;
+  deleteCourse: (course: any) => void;
+  updateCourse: () => void;
+}) {
   return (
     <div className="p-4">
       <h5>Course</h5>
